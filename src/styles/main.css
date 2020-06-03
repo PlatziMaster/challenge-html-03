@@ -14,7 +14,7 @@ body {
    font-family: 'Roboto', sans-serif;
 }
 
-.root {
+#root {
    background: url('https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') center center no-repeat;
    background-size: cover;
    position: fixed;
@@ -24,7 +24,7 @@ body {
    bottom: 0;
 }
 
-.root:before {
+#root:before {
    content: '';
    background-color: rgba(0, 0, 0, .6);
    position: absolute;
@@ -49,25 +49,27 @@ body {
    align-items: center;
 }
 
-.Hero-header {
+.header {
    display: flex;
+   grid-template-columns: minmax(auto, 1280px);
    justify-content: space-between;
    align-items: center;
    position: relative;
    margin: 0;
+   color: var(--white, white);
 }
 
-.Hero-logo h3{
+.header-logo h3{
    margin: 0;
    font-size: 2rem;
 }
 
-.Hero-nav ul{
+.header-nav ul{
    list-style: none;
    display: flex;
 }
 
-.Hero-nav ul li {
+.header-nav ul li {
    margin: 0 0 0 1rem;
 }
 
