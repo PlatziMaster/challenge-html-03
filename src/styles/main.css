@@ -65,52 +65,56 @@ body {
 
 .Hero-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.Hero-title {
-  padding: 1em;
-}
-
 .Hero-title h1 {
-  font-size: 400px;
-  color: rgba(255,255,255,0.2);
+  font-size: 350px;
+  color: white;
   margin: 0;
   padding: 0;
-}
-
-.Hero-title h2 {
-  font-size: 45px;
-  margin: -130px 0 0 0;
-}
-
-.Hero-title h3 {
-  font-weight: 200;
-  margin: 1em 0 1.5em 0;
-}
-
-.Hero-title .btn {
-  background-color: #002f4b;
-  cursor: pointer;
-  margin: 30px 0px;
-  padding: 12px;
-  border: 1px solid #002f4b;
-  color: white;
-  font-weight: 200;
-  text-transform: uppercase;
-  font-size: 15px;
-  border-radius: 5px;
-  letter-spacing: 1.5px;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
-}
-
-.Hero-title a {
-  text-decoration: none;
+  text-shadow: 0 0 50px #31d6dd;
 }
 
 .Hero-image figure {
   margin: 0;
-  padding: 0;
-  text-align: right;
+}
+.Hero-image figure img{
+  width: 400px;
+  height: 400px;
+}
+
+.Hero-return {
+  text-align: left;
+  margin-top: -40px;
+  padding: 0 200px;
+}
+
+.Hero-return h2 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.Hero-return h3 {
+  font-weight: 200;
+  margin: 1em 0 1.5em 0;
+}
+
+.Hero-return a {
+  text-decoration: none;
+}
+
+.Hero-return .btn {
+  background-color: #002f4b;
+  cursor: pointer;
+  padding: 15px;
+  border: 1px solid #002f4b;
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
 }
