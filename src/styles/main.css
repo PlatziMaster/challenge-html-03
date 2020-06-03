@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  min-height: 100%;
+}
+
+.App {
+  background: url("https://arepa.s3.amazonaws.com/space2.jpg") center center no-repeat;
+  background-size: cover;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.Hero {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  color: #f1f1f1;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, rgba(0,47,75,.6), rgba(0,0,0,.6));
+}
+
+.Hero-container {
+  display: grid;
+  grid-template-columns: minmax(auto,1280px);
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.Hero-logo h3 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.Hero-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Hero-nav li {
+  display: inline-block;
+  margin: 0 0 0 1em;
+}
+
+.Hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Hero-title {
+  padding: 1em;
+}
+
+.Hero-title h1 {
+  font-size: 400px;
+  color: rgba(255,255,255,0.2);
+  margin: 0;
+  padding: 0;
+}
+
+.Hero-title h2 {
+  font-size: 45px;
+  margin: -130px 0 0 0;
+}
+
+.Hero-title h3 {
+  font-weight: 200;
+  margin: 1em 0 1.5em 0;
+}
+
+.Hero-title .btn {
+  background-color: #002f4b;
+  cursor: pointer;
+  margin: 30px 0px;
+  padding: 12px;
+  border: 1px solid #002f4b;
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+}
+
+.Hero-title a {
+  text-decoration: none;
+}
+
+.Hero-image figure {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
