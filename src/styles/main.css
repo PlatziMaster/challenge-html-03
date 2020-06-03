@@ -1,0 +1,108 @@
+:root {
+   --color-primary: #31d6dd;
+   --white: #fafafa;
+}
+
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+.root {
+   background: url('https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') center center no-repeat;
+   background-size: cover;
+   position: fixed;
+   right: 0;
+   left: 0;
+   top: 0;
+   bottom: 0;
+}
+
+.root:before {
+   content: '';
+   background-color: rgba(0, 0, 0, .6);
+   position: absolute;
+   right: 0;
+   left: 0;
+   top: 0;
+   bottom: 0;
+}
+
+.Hero {
+   position: absolute;
+   bottom: 0;
+   top: 0;
+   color: var(--white, white);
+   width: 100%;
+}
+
+.Hero-container {
+   display: grid;
+   grid-template-columns: minmax(auto, 1280px);
+   justify-content: center;
+   align-items: center;
+}
+
+.Hero-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   margin: 0;
+}
+
+.Hero-logo h3{
+   margin: 0;
+   font-size: 2rem;
+}
+
+.Hero-nav ul{
+   list-style: none;
+   display: flex;
+}
+
+.Hero-nav ul li {
+   margin: 0 0 0 1rem;
+}
+
+.Hero-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.Hero-title h1 {
+   font-size: 4rem;
+   font-weight: lighter;
+   margin: 0;
+}
+
+.Hero-title h2 {
+   font-size: 5rem;
+   font-weight: bold;
+   margin: 0;
+}
+
+.Hero-title h2 {
+   font-size: 6rem;
+   font-weight: lighter;
+   margin: 0;
+   text-align: justify;
+}
+
+.Hero-title a {
+   font-size: 1rem;
+   font-weight: lighter;
+   margin: 0;
+   color: var(--white);
+   text-decoration: none;
+   background-color: var(--primary-color, #31d6dd);
+   padding: 0.5rem 1rem;
+   border-radius: 1rem;
+}
