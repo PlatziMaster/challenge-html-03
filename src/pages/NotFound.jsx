@@ -7,10 +7,12 @@ import Wrapper from '../react-components/Wrapper';
 import styled from 'styled-components';
 
 const NotFoundStyled = styled.main`
+   height: 100%;
    .content {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      height: 100%;
    }
 
    .image {
@@ -21,6 +23,8 @@ const NotFoundStyled = styled.main`
    .image img{
       width: 100%;
       margin: 0;
+      transform: translateY(0);
+      animation: float ease 8s infinite;
    }
 
    .details {
@@ -63,6 +67,18 @@ const NotFoundStyled = styled.main`
    .btn.outline-primary {
       color: var(--color-primary);
       border: 1px solid var(--color-primary);
+   }
+
+   @keyframes float {
+      0% {
+         transform: translateY(0);
+      }
+      50% {
+         transform: translateY(-10px);
+      }
+      100% {
+         transform: translateY(0);
+      }
    }
 `
 

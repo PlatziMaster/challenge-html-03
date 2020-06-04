@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
    }
 
    body {
+      height: 100vh;
       margin: 0;
       padding: 0;
       font-family: 'Roboto', sans-serif;
@@ -22,5 +23,9 @@ export const GlobalStyle = createGlobalStyle`
 
    a {
       text-decoration: none;
+   }
+
+   #root {
+      height: calc(100vh - 80px);
    }
 `

@@ -8,6 +8,8 @@ const WrapperStyled = styled.div`
    max-width: 1080px;
    margin-left: auto;
    margin-right: auto;
+   height: 100%;
+   padding: 0 2rem;
 `
 
 const Wrapper = (props) => {
