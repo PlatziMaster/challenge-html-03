@@ -12,7 +12,7 @@ body {
 }
 
 .App {
-  background: url("https://arepa.s3.amazonaws.com/space2.jpg") center center no-repeat;
+  background: url("https://images.unsplash.com/photo-1543779295-5b0668a60151?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80") center center no-repeat;
   background-size: cover;
   position: fixed;
   right: 0;
@@ -113,4 +113,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: right;
+}
+
+.Hero-image figure img {
+  max-width: 300px;
 }
