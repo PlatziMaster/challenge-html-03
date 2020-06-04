@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap')
+
+* 
+  box-sizing: border-box
+
+body
+  margin: 0
+  padding: 0
+  font-family: 'Lato', sans-serif
+  min-height: 100%
+
+
+.App 
+  background: url("https://arepa.s3.amazonaws.com/space2.jpg") center center no-repeat
+  background-size: cover
+  position: fixed
+  right: 0
+  bottom: 0
+  min-width: 100%
+  min-height: 100%
+  
+.Hero 
+  position: absolute
+  bottom: 0
+  top: 0
+  color: #f1f1f1
+  width: 100%
+  background-image: linear-gradient(to bottom right, rgba(0,47,75,.6), rgba(0,0,0,.6))
+  &-container 
+    display: grid
+    grid-template-columns: minmax(auto,1280px)
+    justify-content: center
+    align-items: center
+
+@media screen and (max-width: 1280px)
+  .App 
+    position relative
+  .Hero
+    position: relative
+    &-container 
+      grid-template-rows: 180px 1fr
+      
+
+@media screen and (min-height: 900px)
+  .Hero
+    height: 100vh
+
+@media screen and (max-height: 900px)
+  .Hero
+    height: 100%
+
+      
+    
+

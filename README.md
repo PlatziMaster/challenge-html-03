@@ -1,6 +1,16 @@
 # challenge-html-03 404 HTML
 
-Error 404 en HTML/CSS
+Error 404 en HTML/CSS And Responsive design
+
+![Captura de la app](./.readme-static/404.png)
+
+[ver la aplicación](https://platzi-404.netlify.app/)
+
+# Technologies
+React
+Stylus
+Standard
+Webpack
 
 ### RETO
 

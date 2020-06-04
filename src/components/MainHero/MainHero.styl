@@ -1,0 +1,63 @@
+.Hero
+  &-content 
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &-title 
+    padding: 1em
+    & a
+      text-decoration: none
+    & h1
+      font-size: 400px
+      color: rgba(255,255,255,0.2)
+      margin: 0
+      padding: 0  
+
+    & h2
+      font-size: 45px
+      margin: -130px 0 0 0
+
+    & h3
+      font-weight: 200
+      margin: 1em 0 1.5em 0
+
+    & .btn
+        background-color: #002f4b
+        cursor: pointer
+        margin: 30px 0px
+        padding: 12px
+        border: 1px solid #002f4b
+        color: white
+        font-weight: 200
+        text-transform: uppercase
+        font-size: 15px
+        border-radius: 5px
+        letter-spacing: 1.5px
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.3)
+
+  &-image figure
+    margin: 0
+    padding: 0
+    text-align: right
+
+@media screen and (max-width: 1280px)
+  .Hero
+    &-content
+      flex-direction: column
+    &-title
+      & h1
+        font-size: 350px
+        text-align: center
+      & h2
+        margin-top: .5em
+        text-align: center
+      & h3 
+        text-align: center
+      & .btn
+        display: block
+        max-width: 100%
+        width: 60%
+        margin: 0 auto
+    &-image figure img
+      width: 260px
