@@ -1,18 +1,21 @@
-# challenge-html-03 404 HTML
+# Challenge 404 Page 
+![](https://raw.githubusercontent.com/Angelozam17/challenge-html-03/master/src/assets/NotFoundPage.png)
+## Table of Contents
 
-Error 404 en HTML/CSS
+- [Installation](#installation)
+- [Usage](#usage)
 
-### RETO
+## Installation
 
-1. Mejora el CSS del sitio [Peronalizalo a tu gusto]
-2. Migrar este sitio en HTML/CSS a algún Framework/Libreria de JS (Angular, React, Vue, Svelte.)
-3. Envia tu Pull Request.
 
-### Enviar solución de reto
-Debes hacer un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
+```sh
+git clone https://github.com/Angelozam17/challenge-html-03.git
+npm start
+npm run build
+```
 
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [challenge-html-03](https://github.com/platzimaster/challenge-html-03/)
+## Usage
 
-### Licencia
-challenge-html-03 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+- 404 page
+- ReactJS, Webpack, styled-components
+- Licence MIT
