@@ -9,6 +9,8 @@
 
 
 ```sh
+git clone https://github.com/Angelozam17/challenge-html-03.git
+npm start
 npm run build
 ```
 
